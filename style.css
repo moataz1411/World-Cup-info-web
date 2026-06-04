@@ -9,7 +9,7 @@ body{
     background: #070b17;
     color:white;
     font-family:'poppins',sans-serif;
-    overflow: hidden;
+    overflow-x: hidden;
     position: relative;
 }
 .container{
