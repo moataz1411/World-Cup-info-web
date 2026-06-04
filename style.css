@@ -102,7 +102,7 @@ body{
 }
 .countries-area {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(8, 1fr);
     gap: 20px;
     padding: 20px;
 }
@@ -127,6 +127,108 @@ body{
     object-fit:cover;
     border-radius: 6px;
 }
+.host-section{
+    margin-top:120px;
+    text-align: center;
+}
+.host-title{
+    font-family: 'Cinzel', serif;
+    font-size: 60px;
+    margin-bottom: 40px;
+}
+.hosts-container{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    align-items: center;
+    width:100%;
+    margin: auto;
+}
+.host-usa{
+   flex:1;
+    min-height:300px;
+    background:rgba(255,255,255,0.05);
+    border:2px solid rgba(255,255,255,0.15);
+    border-radius:20px;
+    padding:25px;
+    transition:0.3s;
+    backdrop-filter:blur(10px);
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.host-canada{
+    flex:1;
+    min-height:300px;
+    background:rgba(255,255,255,0.05);
+    border:2px solid rgba(255,255,255,0.15);
+    border-radius:20px;
+    padding:25px;
+    transition:0.3s;
+    backdrop-filter:blur(10px);
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.host-mexico{
+   flex:1;
+    min-height:300px;
+    background:rgba(255,255,255,0.05);
+    border:2px solid rgba(255,255,255,0.15);
+    border-radius:20px;
+    padding:25px;
+    transition:0.3s;
+    backdrop-filter:blur(10px);
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+.host-usa:hover{
+    transform:translateY(-8px);
+    border-color:#04995d;
+}
+.host-canada:hover{
+    transform:translateY(-8px);
+    border-color:#04995d;
+}
+.host-mexico:hover{
+    transform:translateY(-8px);
+    border-color:#04995d;
+}
+
+.host-usa img{
+    width:220px;
+    height:150px;
+    object-fit:cover;
+    border-radius:10px;
+}
+.host-canada img{
+    width:220px;
+    height:150px;
+    object-fit:cover;
+    border-radius:10px;
+}
+.host-mexico img{
+    width:220px;
+    height:150px;
+    object-fit:cover;
+    border-radius:10px;
+}
+
+.host-usa h3{
+    margin-top:10px;
+}
+.host-canada h3{
+    margin-top:10px;
+}
+.host-mexico h3{
+    margin-top:10px;
+}
+
 footer{
     position: absolute;
     bottom: 20px;
