@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Poppins:wght@300;400;600&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    min-height:100vh;
+    background: #070b17;
+    color:white;
+    font-family:'poppins',sans-serif;
+    overflow: hidden;
+    position: relative;
+}
+.container{
+    width:90%;
+    padding-top: 80px;
+    text-align: center;
+    margin:auto;
+    max-width: 1200px;
+}
+.subtit{
+    color: #7c5cff;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.title{
+    margin-bottom: 25px;
+    font-weight:700;
+    font-size: 80px;
+    font-family: 'Cinzel',serif;
+}
+.title span{
+    color: #04995d;
+}
+.line{
+    background: linear-gradient(90deg, #04995d,#7c5cff,#04995d);
+    margin: 0 auto 60px;
+    height: 8px;
+    width: 290px;
+}
+.coudown{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card{
+    width: 220px;
+    height: 220px;
+    transition: 0.3s;
+    align-items: center;
+    border: 2px solid rgba(255,255,255,0.2);
+    border-radius: 20px;
+    flex-direction: column;
+    display:flex;
+    justify-content: center;
+    backdrop-filter: blur(10px);
+}
+.card:hover{
+    transform: translateY(-8px);
+}
+.card h2{
+    font-size: 80px;
+    font-family: 'Cinzel',serif;
+}
+.card p{
+    font-size: 25px;
+    margin-top:10px;
+}
+.active{
+    border-color:#04995d;
+    box-shadow: 0 0 30px #04995d;
+    color: #04995d;
+}
+.backcircle1{
+    position: absolute;
+    border: 2px solid rgba(255,255,255,0.15);
+    border-radius: 50%;
+    width:450px;
+    height: 450px;
+    top:-200px;
+    right: -100px;
+}
+.backcircle2{
+    position: absolute;
+    border:2px solid rgba(255,255,255,0.15);
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    bottom: -150px;
+    left:-100px;
+}
+footer{
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+    color: #aaa;
+}
+
